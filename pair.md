@@ -5,15 +5,13 @@ You are going to building a recommendation system based off data from the
 [Jester Dataset](http://eigentaste.berkeley.edu/dataset/). It includes user 
 ratings of over 100 jokes.
 
-Download the data and starter code [here](recommender-case-study-files/).
-
 The joke data are in `data/jokes.dat`. The users'
 ratings have been broken into a training and test set for you, with the training 
 data in `data/ratings.dat`. Your goal is to build a recommendation system 
 and to suggest jokes to users! Your score will be measured based off of how well 
 you predict the top-rated jokes for the users' ratings in our test set. 
 
-Note that we will be using [GraphLab](https://dato.com/) to build our 
+Note that we will be using [GraphLab](https://turi.com/) to build our 
 recommendation system. If you don't already have it installed, follow the 
 directions in [GraphLab_setup.md](GraphLab_setup.md).
 
@@ -57,21 +55,4 @@ Use `src/rec_runner.py` as a starting point, as it has a function to create
 correctly formatted submission files.
 
 
-
-### !Challenge
-* type: project
-* id: recommender-case-study_pair
-* title: recommender-case-study pair project
-
-#### !Question
-Submit the link to your work in github.
-
-##### !end-question
-
-#### !Placeholder
-https://github.com/<your username>/...
-
-##### !end-placeholder
-
-##### !end-challenge
 
