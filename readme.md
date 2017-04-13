@@ -5,7 +5,7 @@ You are going to building a recommendation system based off data from the
 [Jester Dataset](http://eigentaste.berkeley.edu/dataset/). It includes user 
 ratings of over 100 jokes.
 
-The joke texts are in `data/jokes.dat`, please forgive how awful they all are.
+The joke texts are in `data/jokes.dat`. Please forgive how awful they all are.
 We did not write them. The users'
 ratings have been broken into a training and test set for you, with the training 
 data in `data/ratings.dat`. Your goal is to build a recommendation system 
