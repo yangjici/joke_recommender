@@ -2,7 +2,7 @@
 
 ## Sign up for an academic license. 
 
-1. Visit [Turi](https://turi.com/download/academic.html), and sign up for an academic license (*not* the free trial).
+1. Visit [Turi](https://turi.com/download/academic.html) (formerly knows as Dato, formerly-and-still-kind-of known as GraphLab), and sign up for an academic license (*not* the free trial).
 
 2. Take note of your Product key after you are done signing up. 
 
@@ -18,6 +18,7 @@ pip install graphlab-create
 
 ```bash 
 export GRAPHLAB_KEY=1234
+
 mkdir -p ~/.graphlab && echo -e "[Product]\nproduct_key=${GRAPHLAB_KEY}" > ~/.graphlab/config \
 && echo "Configuration file written" || echo "Configuration file not written"
 ```
