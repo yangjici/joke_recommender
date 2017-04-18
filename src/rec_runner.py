@@ -16,5 +16,7 @@ if __name__ == "__main__":
                                                      target='rating',
                                                      solver='auto')
 
+    # sim_rec = gl.recommender.item_similarity_recommender.create(ratings, user_id='user_id', item_id='joke_id', target='rating')
+
     sample_sub.rating = rec_engine.predict(for_prediction)
     sample_sub.to_csv(output_fname, index=False)
